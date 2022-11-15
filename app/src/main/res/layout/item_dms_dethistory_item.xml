@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_hstdmsno"
+                android:layout_gravity="right"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_hstdms_no"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_hstdmsno"
+                android:layout_toEndOf="@+id/txtv_hstdmsno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State :"
+                android:id="@+id/txtv_hststate"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_hststate"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_hststate"
+                android:layout_toEndOf="@+id/txtv_hststate"
+                android:layout_toRightOf="@+id/txtv_hststate"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Proses :"
+                android:id="@+id/txtv_hstdateproses"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_hstdateproses"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date proses"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_hstdateproses"
+                android:layout_toEndOf="@+id/txtv_hstdateproses"
+                android:layout_toRightOf="@+id/txtv_hstdateproses"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Id :"
+                android:id="@+id/txtv_hstuserid"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_hstuserid"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Id"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_hstuserid"
+                android:layout_toEndOf="@+id/txtv_hstuserid"
+                android:layout_toRightOf="@+id/txtv_hstuserid"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

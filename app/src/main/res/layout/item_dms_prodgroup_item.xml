@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_dmsno"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_dms_no"
+                android:layout_alignBottom="@+id/txtv_dmsno"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_dmsno"
+                android:layout_toEndOf="@+id/txtv_dmsno" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Id :"
+                android:id="@+id/txtv_pggroupid"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_pggroupid"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group Id"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_pggroupid"
+                android:layout_toEndOf="@+id/txtv_pggroupid"
+                android:layout_toRightOf="@+id/txtv_pggroupid"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Include Exclude :"
+                android:id="@+id/txtv_pgincexc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_pgincexc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incelude Exclude"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_pgincexc"
+                android:layout_toEndOf="@+id/txtv_pgincexc"
+                android:layout_toRightOf="@+id/txtv_pgincexc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Name :"
+                android:id="@+id/txtv_pggroupname"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_pggroupname"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Part Desc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_pggroupname"
+                android:layout_toEndOf="@+id/txtv_pggroupname"
+                android:layout_toRightOf="@+id/txtv_pggroupname"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_sigdmsno"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_sigdms_no"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_sigdmsno"
+                android:layout_toEndOf="@+id/txtv_sigdmsno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignTop="@+id/txtv_sigdmsno" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Line No :"
+                android:id="@+id/txtv_ovlineno"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ovlineno"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Line No"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ovlineno"
+                android:layout_toEndOf="@+id/txtv_ovlineno"
+                android:layout_toRightOf="@+id/txtv_ovlineno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Value :"
+                android:id="@+id/txtv_ovminvalue"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ovminvalue"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Min Value"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ovminvalue"
+                android:layout_toEndOf="@+id/txtv_ovminvalue"
+                android:layout_toRightOf="@+id/txtv_ovminvalue"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Value :"
+                android:id="@+id/txtv_ovmaxvalue"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ovmaxvalue"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Max Value"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ovmaxvalue"
+                android:layout_toEndOf="@+id/txtv_ovmaxvalue"
+                android:layout_toRightOf="@+id/txtv_ovmaxvalue"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type Disc :"
+                android:id="@+id/txtv_ovtypedisc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ovmtypedisc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Disc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ovtypedisc"
+                android:layout_toEndOf="@+id/txtv_ovtypedisc"
+                android:layout_toRightOf="@+id/txtv_ovtypedisc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value Disc :"
+                android:id="@+id/txtv_ovvaluedisc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ovvaluedisc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Value Disc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ovvaluedisc"
+                android:layout_toEndOf="@+id/txtv_ovvaluedisc"
+                android:layout_toRightOf="@+id/txtv_ovvaluedisc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

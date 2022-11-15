@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_dmsno"
+                android:layout_gravity="right"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_dms_no"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_dmsno"
+                android:layout_toEndOf="@+id/txtv_dmsno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cust Group :"
+                android:id="@+id/txtv_csgcustgroup"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_csgcustgroup"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cust Group"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_csgcustgroup"
+                android:layout_toEndOf="@+id/txtv_csgcustgroup"
+                android:layout_toRightOf="@+id/txtv_csgcustgroup"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Include Include :"
+                android:id="@+id/txtv_csgincexcl"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_csgincexcl"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Include Exclude"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_csgincexcl"
+                android:layout_toEndOf="@+id/txtv_csgincexcl"
+                android:layout_toRightOf="@+id/txtv_csgincexcl"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Desc :"
+                android:id="@+id/txtv_csggroupdesc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_csggroupdesc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group Desc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_csggroupdesc"
+                android:layout_toEndOf="@+id/txtv_csggroupdesc"
+                android:layout_toRightOf="@+id/txtv_csggroupdesc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

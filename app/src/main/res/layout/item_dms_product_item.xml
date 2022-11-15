@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_dmsno"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_dms_no"
+                android:layout_alignBottom="@+id/txtv_dmsno"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_dmsno"
+                android:layout_toEndOf="@+id/txtv_dmsno" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Line No :"
+                android:id="@+id/txtv_lineno"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_customerid"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Line No"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_lineno"
+                android:layout_toEndOf="@+id/txtv_lineno"
+                android:layout_toRightOf="@+id/txtv_lineno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part No :"
+                android:id="@+id/txtv_partno"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_partno"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Part No"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_partno"
+                android:layout_toEndOf="@+id/txtv_partno"
+                android:layout_toRightOf="@+id/txtv_partno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part Desc :"
+                android:id="@+id/txtv_partdesc1"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_partdesc1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Part Desc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_partdesc1"
+                android:layout_toEndOf="@+id/txtv_partdesc1"
+                android:layout_toRightOf="@+id/txtv_partdesc1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Qty :"
+                android:id="@+id/txtv_minqty"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_minqty"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Min Qty"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_minqty"
+                android:layout_toEndOf="@+id/txtv_minqty"
+                android:layout_toRightOf="@+id/txtv_minqty"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Qty :"
+                android:id="@+id/txtv_maxqty"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_maxqty"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Max Qty"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_maxqty"
+                android:layout_toEndOf="@+id/txtv_maxqty"
+                android:layout_toRightOf="@+id/txtv_maxqty"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ket Disc :"
+                android:id="@+id/txtv_ketdisc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_ketdisc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ket Disc"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_ketdisc"
+                android:layout_toEndOf="@+id/txtv_ketdisc"
+                android:layout_toRightOf="@+id/txtv_ketdisc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bonus Part :"
+                android:id="@+id/txtv_bonuspart"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_bonuspart"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bonus Part"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_bonuspart"
+                android:layout_toEndOf="@+id/txtv_bonuspart"
+                android:layout_toRightOf="@+id/txtv_bonuspart"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bonus Desc :"
+                android:id="@+id/txtv_bonusdesc"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_bonusdesc"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bonus Part"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_bonusdesc"
+                android:layout_toEndOf="@+id/txtv_bonusdesc"
+                android:layout_toRightOf="@+id/txtv_bonusdesc"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bonus Qty :"
+                android:id="@+id/txtv_bonusqty"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_bonusqty"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bonus Qty"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_bonusqty"
+                android:layout_toEndOf="@+id/txtv_bonusqty"
+                android:layout_toRightOf="@+id/txtv_bonusqty"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bonus Kelipatan :"
+                android:id="@+id/txtv_bonuskel"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_bonuskel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bonus Qty"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_bonuskel"
+                android:layout_toEndOf="@+id/txtv_bonuskel"
+                android:layout_toRightOf="@+id/txtv_bonuskel"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

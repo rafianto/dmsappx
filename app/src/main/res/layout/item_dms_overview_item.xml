@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DMS No :"
+                android:id="@+id/txtv_dmsno"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS NO"
+                android:textSize="16sp"
+                android:id="@+id/txt_item_dms_no"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/txtv_dmsno"
+                android:layout_toEndOf="@+id/txtv_dmsno"
+                android:layout_alignParentBottom="true"
+                android:layout_alignTop="@+id/txtv_dmsno" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date From :"
+                android:id="@+id/txtv_datefrom"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_date_from"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date From"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_date_from"
+                android:layout_toEndOf="@+id/txtv_datefrom"
+                android:layout_toRightOf="@+id/txtv_datefrom"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date To :"
+                android:id="@+id/txtv_dateto"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_date_to"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date To"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_date_to"
+                android:layout_toEndOf="@+id/txtv_dateto"
+                android:layout_toRightOf="@+id/txtv_dateto"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Principal :"
+                android:id="@+id/txtv_principal"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_principal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principal"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_principal"
+                android:layout_toEndOf="@+id/txtv_principal"
+                android:layout_toRightOf="@+id/txtv_principal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dms Focus :"
+                android:id="@+id/txtv_dmsfokus"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_dms_focus"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DMS Focus"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_dms_focus"
+                android:layout_toEndOf="@+id/txtv_dmsfokus"
+                android:layout_toRightOf="@+id/txtv_dmsfokus"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="43dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note :"
+                android:id="@+id/txtv_notetext"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_note_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_note_text"
+                android:layout_toEndOf="@+id/txtv_notetext"
+                android:layout_toRightOf="@+id/txtv_notetext"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State :"
+                android:id="@+id/txtv_state"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_state"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_state"
+                android:layout_toEndOf="@+id/txtv_state"
+                android:layout_toRightOf="@+id/txtv_state"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HNA Flag:"
+                android:id="@+id/txtv_hnaflag"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_hnaflag"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HNA Flag"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_hnaflag"
+                android:layout_toEndOf="@+id/txtv_hnaflag"
+                android:layout_toRightOf="@+id/txtv_hnaflag"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Netto Flag:"
+                android:id="@+id/txtv_nettoflag"
+                android:layout_gravity="right"
+                android:layout_alignTop="@+id/txt_item_nettoflag"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Netto Flag"
+                android:textSize="12sp"
+                android:id="@+id/txt_item_nettoflag"
+                android:layout_toEndOf="@+id/txtv_nettoflag"
+                android:layout_toRightOf="@+id/txtv_nettoflag"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
